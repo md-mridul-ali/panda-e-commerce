@@ -134,4 +134,86 @@
     font-size: 36px;
     font-weight: 700;
 }
+.shoes{
+    width: 1128px;
+    height: 582px;
+    margin-top: 40px;
+    background-color: #F4F4F4;
+}
+.shoes-title{
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.shoes-items{
+   display: flex;
+   gap: 24px;
+}
+.shoes-items-1{
+    width: 360px;
+    height: 496px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
+.shoes-items-1 img{
+    width: 336px;
+    height: 202px;
+}
+.shoes-items-1-title{
+    text-align: center;
+    position: relative;
+}
+.shoes-items-1-title i{
+    position: absolute;
+    top: 200px;
+    left: 230px;
+    color: #FFFFFF;
+}
+.shoes-items-1-title h2{
+    width: 303px;
+    height: 72px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+}
+.shoes-items-1-details{
+    width: 307px;
+    height: 52px;
+    padding-left: 26.5px;
+    padding-right: 26.5px;
+}
+.shoes-items-1-price{
+    padding: 16px 119px 0px 119px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.shoes-items-btn{
+    width: 168px;
+    height: 52px;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 16px 69.5px 0px 69.5px;
+    color: #FFFFFF;
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+}
+.backpack{
+    width: 1128px;
+    height: 662px;
+    background-color:#F4F4F4;
+}
+.bag-items{
+    display: flex;
+    gap: 20px;
+}
+.bag-items-1 img{
+    width: 290px;
+    height: 290px;
+}
+.bag-items-1{
+    width: 360px;
+    height: 584px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+}
 
