@@ -1,0 +1,40 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1280px;
+    margin: 49px 157px 0px 157px;
+}
+.nav-search-btn{
+    position: relative;
+}
+.nav-search-btn input{
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 66px;
+    padding: 15px 30px;
+    width: 508px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.nav-search-btn i{
+    position: absolute;
+    top: 17px;
+    right: 20px;
+    color: #BABABA;
+}
+.nav-items{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.nav-items li a {
+    text-decoration: none;
+    color: #707070;
+    font-size: 16px;
+    font-weight: 500;
+}
